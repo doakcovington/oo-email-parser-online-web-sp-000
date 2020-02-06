@@ -11,8 +11,6 @@ class EmailAddressParser
   end
 
   def parse
-    #result = [] # flag/switch
-
     # start by splitting email_addresses using commas and spaces as delimiters
     email_array = @email_addresses.split(/[, ]/)
     #remove blank spaces from email_array caused by the split on a space
