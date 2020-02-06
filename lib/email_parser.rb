@@ -17,8 +17,8 @@ class EmailAddressParser
     email_array = @email_addresses.split(/[, ]/)
     #remove blank spaces from email_array caused by the split on a space
     result = email_array.collect {|element| element.length >= 1}
-    email_array
-    #result # return flag/switch
+    #email_array
+    result # return flag/switch
   end
 
 end
