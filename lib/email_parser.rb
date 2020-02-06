@@ -11,12 +11,12 @@ class EmailAddressParser
   end
 
   def parse
-    result = [] # flag/switch
+    #result = [] # flag/switch
 
     # start by splitting email_addresses using commas and spaces as delimiters
     email_array = @email_addresses.split(/[, ]/)
     email_array
-    result # return flag/switch
+    #result # return flag/switch
   end
 
 end
