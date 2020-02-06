@@ -18,7 +18,7 @@ class EmailAddressParser
     #remove blank spaces from email_array caused by the split on a space
     result = email_array.reject {|element| element.empty?}
     #email_array
-    result # return flag/switch
+    result.uniq # return flag/switch
   end
 
 end
